@@ -1,0 +1,59 @@
+
+/*.btn-menu {
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+  top: 35px;
+  cursor: pointer;
+  // background-color: red;
+}
+
+.closeMenu .btn-line:nth-child(1) {
+  margin-bottom: 0;
+  transform: rotate(45deg) translate(1px, 4px);
+}
+.closeMenu .btn-line:nth-child(2) {
+  opacity: 0;
+  margin-bottom: 0;
+}
+.closeMenu .btn-line:nth-child(3) {
+  transform: rotate(-45deg) translate(0px, -3px);
+}
+
+.btn-menu .btn-line {
+  height: 3px;
+  width: 35px;
+  margin: 0 0 5px 0;
+  background-color: #111;
+  transition: 0.2s ease-in-out;
+}
+
+// btn-line JS
+.btn-line2-hover {
+  width: "27px";
+  margin-left: "8px";
+}
+.btn-line3-hover {
+  width: 0;
+}
+*/
+
+/* function menuOver() {
+  line1.style.width = "35px";
+  line2.style.width = "27px";
+  line2.style.marginLeft = "8px";
+  line3.style.width = "0px";
+}
+function menuOut() {
+  line2.style.width = "35px";
+  line2.style.marginLeft = "0px";
+  line3.style.width = "35px";
+}
+
+function menuShow() {
+  line2.style.opacity = "0";
+  line1.style.marginBottom = "0";
+  line2.style.marginBottom = "0";
+  line1.style.transform = "translate(-1px, 5px) rotate(45deg)";
+  line3.style.transform = "translate(-2px, -1px) rotate(-45deg)";
+} */
